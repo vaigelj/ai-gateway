@@ -51,6 +51,8 @@ make run
 
 The gateway is configured via Envoy's xDS API or static configuration files. See the [`config/`](config/) directory for examples.
 
+> **Personal note:** I primarily use this with Ollama running `llama3` and `mistral` locally. The `config/ollama-example.yaml` is the starting point I use most often.
+
 ## Development
 
 ```bash
